@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Última Práctica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h3>Accede a tu Área Clientes</h3>
+    </header>
+    <main>
+        <form>
+            <p class="form">Elige tu documento</p>
+            <p class="form"><input type="radio" name="dni" value="dni">DNI o Tarjeta de residencia</p>
+            <p  class="form"><input type="radio" name="dni" value="pasaporte">Pasaporte</p>
+            
+            <p class="form">Número de documento</p>
+            <p class="form"><input type="text" placeholder="DNI o Tarjeta de residencia"></p>
+            
+            <p class="form">Fecha de nacimiento</p>
+            <p class="form"><input type="date"></p>
+            <p class="form"><input type="checkbox" name="check">Recordar</p>
+            <p class="form"><input type="button" value="Entrar"></p>
+        </form>
+        <form>
+            <h3>Empiza creando tu usuario</h3>
+            <p class="form"><input type="text" placeholder="Nombre (como sale en el DNI)"></p>
+            <p class="form"><input type="text" placeholder="1 apellido (como sale en el DNI)"></p><p class="form"><input type="text" placeholder="2 apellido (como sale en el DNI)"></p>
+            <p class="form">Tipo de documento <select name="tipo">
+                <option>DNI</option>
+                <option>NIF</option>
+                <option>CERT.AEAT</option>
+            </select></p>        
+            <p class="form"><input type="text" placeholder="Número de documento"></p>
+            <p class="form"><input type="tel"></p>
+            <p class="form"><input type="text" placeholder="Email"></p>
+        </form>
+        <h3>¿Eres nuevo?</h3>
+        <p class="form">Regístrate para guardar tu información y hacer tus pedidos de forma más fácil y rápida</p>
+        <form>
+            <p class="form">Email<input type="text" placeholder="Introcuce tu email"></p>
+            <p class="form">Teléfono<input type="tel" placeholder="Tu teléfono"></p>
+            <p class="form">Contraseña<input type="password" placeholder="Introduce tu contraseña"></p>
+            <p class="form">Confirma tu contraseña<input type="password" placeholder="Confirma contraseña"></p> 
+            <p class="form"><input type="checkbox" id="check">He leído y acepto Política de privacidad</p>
+            <p class="form"><input type="checkbox" id="check">Sí,acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil.</p>
+            <p class="form"><input type="button" value="Crea tu cuenta"></p>      
+        </form>
+
+
+    </main>
+</body>
+</html>
